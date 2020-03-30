@@ -4,7 +4,7 @@ main(List<String> arguments) {
 
   (){print('hello');};
 
-  List people = ['Bryan', 'Heather', 'Chris'];
+  List<String> people = ['Bryan', 'Heather', 'Chris'];
 
   people.forEach(print);
 
