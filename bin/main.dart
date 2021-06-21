@@ -23,6 +23,8 @@ main(List<String> arguments) {
         return false;
       case 'Heather':
         return true;
+      default:
+        return false;
     }
   }).forEach(print);
 
